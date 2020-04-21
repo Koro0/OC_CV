@@ -1,0 +1,22 @@
+html {width: 95%;}
+header {display: flex; flex-wrap: wrap;}
+.imgID {min-width: 300px; width: 25%;}
+.Right {width: 75%; grid-area: r;}
+.Left {min-width: 300px; width:25%; grid-area: l;}
+main {display: grid;}
+.content {display: grid; grid-template-columns: 1fr 5fr;}
+.Yellow {background-color: #FFB300;}
+i {color: #FFCA28;}
+
+#firstPart {display: grid; column-gap: 50px; grid-template-columns: 100px auto;grid-template-rows: ;}
+#secondPart {display: grid; column-gap: 50px; grid-template-columns: 100px auto;grid-template-rows: ;}
+.title {grid-column: 1 / -1;}
+
+@media screen an (max-width: 600px)
+.Left .Right {
+    grid-template-column: auto;
+    grid-template-row: 2, 1fr;
+    grid-template-areas: 
+    "r"
+    "l";
+}

@@ -1,22 +1,30 @@
-html {width: 95%;}
-header {display: flex; flex-wrap: wrap;}
-.imgID {min-width: 300px; width: 25%;}
-.Right {width: 75%; grid-area: r;}
-.Left {min-width: 300px; width:25%; grid-area: l;}
-main {display: grid;}
-.content {display: grid; grid-template-columns: 1fr 5fr;}
-.Yellow {background-color: #FFB300;}
-i {color: #FFCA28;}
 
-#firstPart {display: grid; column-gap: 50px; grid-template-columns: 100px auto;grid-template-rows: ;}
-#secondPart {display: grid; column-gap: 50px; grid-template-columns: 100px auto;grid-template-rows: ;}
-.title {grid-column: 1 / -1;}
+html {width: 90%;}
+#top {display: flex; flex-wrap: wrap;}
+/*flexbox sur img & name */
+span.name1 , i {color: #FFB300;}
+/*Couleur dur prénom*/
+.cops {display: grid; grid-template-columns: 200px auto;}
+/*cops la grande 2nd partie du CV diviser en 2 parts comprennant info et detailles*/
+#Left {min-width: 210px; width: 20%;}
+/*left toute la parti en backgound color yellow,
+260px en conformité avec img en 200px*/
+.right , #name {width: 60%;}
+.titleLeft {color: #FFB300; background-color: #000000;}
+/*couleur police et fond des titre gauche*/
+.yellow {background-color: #FFB300;}
+/*couleur fond gauche*/
+#content {display: grid; grid-template-columns: 1fr; }
+/* Partie droite en Grid sur une colonne*/
+.title {grid-column: 1/-1;text-decoration: underline; text-decoration-color: #FFB300;}
+#firstPart {display: grid; grid-template-columns: 100px 1fr;row-gap: 10px;}
+#secondPart {display: grid; grid-template-columns: 100px 1fr;row-gap: 10px;}
 
-@media screen an (max-width: 600px)
-.Left .Right {
-    grid-template-column: auto;
-    grid-template-row: 2, 1fr;
-    grid-template-areas: 
-    "r"
-    "l";
+@media screen and (max-width: 600px) {
+#top {
+    flex-direction: column;
+    }
+.cops {
+    flex-wrap: wrap;
+    }
 }

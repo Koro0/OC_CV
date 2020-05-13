@@ -7,7 +7,7 @@ h2 { margin-top: 0px;}
 
 /** organisation page**/
 .flexFunction { display: flex; flex-wrap: wrap; justify-content: space-between;}
-.leftPart { min-width: 210px;width: 20%;}
+.leftPart { min-width: 210px;width: 20%; text-align: center;}
 .rightPart { width: 75%;}
 
 
@@ -20,10 +20,11 @@ main { height: 70%;}
 .backTitle { background-color: black; margin: 2px 2px 2px 2px;}
 span.name1 { color: #FFB330;}
 .icon {color: #FFB330;}
-
+#idImg {border-radius: 2px solid white; }
 /** Left Part**/
 article { display: flex; flex-wrap: wrap; justify-content: space-between; width: 40%;}
 .title { text-decoration: underline; text-decoration-color: #FFB330;}
+
 
 @media screen and (max-width: 600px) {
 header , main {

@@ -14,17 +14,17 @@ h2 { margin-top: 0px;}
 header {height: 30%;}
 main { height: 70%;}
 
-/** color**/
+/** color **/
 .backPrimary {background-color: #FFB330;}
 .colorPrimary { color: #FFB330;}
 .backTitle { background-color: black; margin: 2px 2px 2px 2px;}
 span.name1 { color: #FFB330;}
 .icon {color: #FFB330;}
 #idImg {border-radius: 2px solid white; }
-/** Left Part**/
-article { display: flex; flex-wrap: wrap; justify-content: space-between; width: 40%;}
+/** Right Part**/
+article { display: flex; flex-wrap: wrap; width: 100%;}
 .title { text-decoration: underline; text-decoration-color: #FFB330;}
-
+.date { margin-right: 50px;}
 
 @media screen and (max-width: 600px) {
 header , main {

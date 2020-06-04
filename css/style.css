@@ -20,14 +20,19 @@ main { height: 70%;}
 .backTitle { background-color: black; margin: 2px 2px 2px 2px;}
 span.name1 { color: #FFB330;}
 .icon {color: #FFB330;}
-#idImg {border-radius: 2px solid white; }
+#idImg {border-radius: 100px; box-shadow: 2px 2px 5px black; }
 /** Right Part**/
-article { display: flex; flex-wrap: wrap; width: 100%;}
-.title { text-decoration: underline; text-decoration-color: #FFB330;}
-.date { margin-right: 50px;}
+ol { display: flex; flex-wrap: wrap; width: 100%;}
+.titleUnderline { text-decoration: underline; text-decoration-color: #FFB330; margin-top: 15px;}
+
+.date { margin-right: 150px;}
+.resume { margin-left: 200px;}
 
 @media screen and (max-width: 600px) {
-header , main {
+body {
+    display: flex;
     flex-direction: column;
+    width: 100%;
+    
     }
 }

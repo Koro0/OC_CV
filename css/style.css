@@ -1,10 +1,13 @@
 /**base**/
-html { background-color: white; height: 100%;}
-body {width: 90%; margin: auto; justify-content: center; border: 1px solid black;}
+html { background-color: #ffffff; height: 100%;}
+body {width: 99%; margin: auto; justify-content: center; }
 
 /**reset*/
 h2 { margin-top: 0px;}
 
+/**Font CMD**/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+* {font-family: 'Work Sans', sans-serif;}
 /** organisation page**/
 .flexFunction { display: flex; flex-wrap: wrap; justify-content: space-between;}
 .leftPart { min-width: 210px;width: 20%; text-align: center;}
@@ -15,18 +18,21 @@ header {height: 30%;}
 main { height: 70%;}
 
 /** color **/
-.backPrimary {background-color: #FFB330;}
-.colorPrimary { color: #FFB330;}
-.backTitle { background-color: black; margin: 2px 2px 2px 2px;}
-span.name1 { color: #FFB330;}
-.icon {color: #FFB330;}
+.backPrimary {background-color: #feca07;}
+.colorPrimary { color: #feca07;}
+.backTitle { background-color: #404040; margin: 2px 2px 2px 2px;}
+span.name1 { color: #feca07;}
+.icon {color: #feca07;}
 #idImg {border-radius: 100px; box-shadow: 2px 2px 5px black; }
 /** Right Part**/
-ol { display: flex; flex-wrap: wrap; width: 100%;}
-.titleUnderline { text-decoration: underline; text-decoration-color: #FFB330; margin-top: 15px;}
+footer {margin-bottom: -10px;}
 
-.date { margin-right: 150px;}
-.resume { margin-left: 200px;}
+ul { display: flex; width: 90%; }
+li {min-width: 150px;}
+.titleUnderline { text-decoration: underline; text-decoration-color: #feca07; margin-top: 15px;}
+
+.date { margin-right: 50px;}
+
 
 @media screen and (max-width: 600px) {
 body {

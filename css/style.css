@@ -20,19 +20,24 @@ main { height: 70%;}
 /** color **/
 .backPrimary {background-color: #feca07;}
 .colorPrimary { color: #feca07;}
-.backTitle { background-color: #404040; margin: 2px 2px 2px 2px;}
+.backTitle { background-color: #404040; margin: 2px auto 2px auto;}
 span.name1 { color: #feca07;}
 .icon {color: #feca07;}
-#idImg {border-radius: 100px; box-shadow: 2px 2px 5px black; }
-/** Right Part**/
+/**Left Part**/
+#idImg {border-radius: 100px; box-shadow: 2px 2px 5px black; text-align: center;}
+.leftPart h3 { text-align: justify; margin: 5% 0;}
+.leftPart p { text-align: justify; margin: 10% 0;}
+/**Footer Part**/
 footer {margin-bottom: -10px;}
-
-ul { display: flex; width: 90%; }
+.recom {display: flex; flex-wrap: wrap; justify-content: space-between; margin-right: 20%;}
+.fun { font-size: 40px; border-radius: 150px; border-style: solid; border-color: #404040; color: #404040;}
+/** Right Part**/
+ul { display: flex; width: 90%; list-style: url("img/pucette.png");}
 li {min-width: 150px;}
-.titleUnderline { text-decoration: underline; text-decoration-color: #feca07; margin-top: 15px;}
+.titleUnderline { text-underline-position: under; text-decoration: underline; text-decoration-color: #feca07; margin-top: 15px;}
 
 .date { margin-right: 50px;}
-
+.rightPart h2 { max-width: 95%; border-bottom: 2px solid #feca07;}
 
 @media screen and (max-width: 600px) {
 body {

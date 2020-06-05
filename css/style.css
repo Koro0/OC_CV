@@ -37,7 +37,8 @@ ul { display: flex; width: 90%; list-style: url(/img/pucette.png);}
 li {min-width: 150px;}
 
 .titleUnderline { text-underline-position: under; text-decoration: underline; text-decoration-color: #feca07; margin-top: 15px;}
-
+.contactContent { margin: 20px; text-align: justify;}
+.mytext { margin: 20px; text-align: justify;}
 .date { margin-right: 50px;}
 .rightPart h2 { max-width: 95%; border-bottom: 2px solid #feca07;}
 
@@ -103,6 +104,10 @@ li {min-width: 150px;}
     .fun { color: #e7e7e7; border-color: #e7e7e7;}
     .rightPart h2 { color: #0a4c5a;}
     header .backPrimary {background-color: #e7e7e7;}
+    main i { border-radius: 150%; border-style: solid; border-color: #b9baba; border-width: 4px; background-color: #52525f;}
+    .icon { color:#e7e7e7;}
+    ul { margin: auto;}
+    .date { margin-right: 10px;}
     main .backPrimary {background-color: #0a4c5a;}
     main .rightPart {
         

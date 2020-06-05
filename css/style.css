@@ -24,26 +24,112 @@ main { height: 70%;}
 span.name1 { color: #feca07;}
 .icon {color: #feca07;}
 /**Left Part**/
-#idImg {border-radius: 100px; box-shadow: 2px 2px 5px black; text-align: center;}
+#idImg {border-radius: 100px; box-shadow: 2px 2px 5px black; text-align: center; min-width: 210px;}
 .leftPart h3 { text-align: justify; margin: 5% 0;}
-.leftPart p { text-align: justify; margin: 10% 0;}
+.leftPart .contact { text-align: justify; margin: 10%;}
+
 /**Footer Part**/
 footer {margin-bottom: -10px;}
 .recom {display: flex; flex-wrap: wrap; justify-content: space-between; margin-right: 20%;}
 .fun { font-size: 40px; border-radius: 150px; border-style: solid; border-color: #404040; color: #404040;}
 /** Right Part**/
-ul { display: flex; width: 90%; list-style: url("img/pucette.png");}
+ul { display: flex; width: 90%; list-style: url(/img/pucette.png);}
 li {min-width: 150px;}
+
 .titleUnderline { text-underline-position: under; text-decoration: underline; text-decoration-color: #feca07; margin-top: 15px;}
 
 .date { margin-right: 50px;}
 .rightPart h2 { max-width: 95%; border-bottom: 2px solid #feca07;}
 
-@media screen and (max-width: 600px) {
-body {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    
+
+
+@media only screen and (max-width: 850px) {
+    body {
+        width: 100%;
+        flex-direction: column;
     }
+    header {
+        display: flex;
+    }
+    #name {
+        min-width: 30%;
+    }
+    main .rightPart {
+        
+        width: 100%;
+    }
+    footer .rightPart {
+        
+        width: 100%;
+    }
+    main .leftPart {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    main .leftPart > div {
+        width: 50%;
+    }
+    footer .leftPart {
+        width: 100%;
+    }
+    /*Order for ipad*/
+    div#idImg   {order: 1;}
+    div#name  {order: 2;}
+    div#about {order: 4;}
+    div#contentExp  {order: 3;}
+    div#hobby   {order: 4;}
+    div#recomm  {order: 5;}
+}
+@media only screen and (max-width: 600px) {
+    body {
+        width: 100%;
+        flex-direction: column;
+        background-color: #e7e7e7;
+    }
+    header {
+        display: flex;
+        
+    }
+    #iD { 
+        flex-direction: row;
+    }
+    #name {
+        min-width: 100%;
+        
+    }
+    .colorPrimary { color: #e7e7e7;}
+    .fun { color: #e7e7e7; border-color: #e7e7e7;}
+    .rightPart h2 { color: #0a4c5a;}
+    header .backPrimary {background-color: #e7e7e7;}
+    main .backPrimary {background-color: #0a4c5a;}
+    main .rightPart {
+        
+        width: 100%;
+    }
+    footer .rightPart {
+        
+        width: 100%;
+    }
+    footer .backPrimary {background-color: #0a4c5a;}
+    main .leftPart {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    main .leftPart > div {
+        width: 50%;
+    }
+    footer .leftPart {
+        width: 100%;
+    }
+    /*Order for ipad*/
+    div#idImg   {order: 1;}
+    div#name  {order: 2;}
+    div#about {order: 4;}
+    div#contentExp  {order: 3;}
+    div#hobby   {order: 4;}
+    div#recomm  {order: 5;}
 }

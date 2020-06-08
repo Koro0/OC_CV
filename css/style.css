@@ -33,13 +33,15 @@ footer {margin-bottom: -10px;}
 .recom {display: flex; flex-wrap: wrap; justify-content: space-between; margin-right: 20%;}
 .fun { font-size: 40px; border-radius: 150px; border-style: solid; border-color: #404040; color: #404040;}
 /** Right Part**/
-ul { display: flex; width: 90%; list-style: url(/img/pucette.png);}
-li {min-width: 150px;}
-
+.ul { display: flex; width: 90%;}
+.li {min-width: 200px;}
+.ul > div {display: block;}
 .titleUnderline { text-underline-position: under; text-decoration: underline; text-decoration-color: #feca07; margin-top: 15px;}
 .contactContent { margin: 20px; text-align: justify;}
 .mytext { margin: 20px; text-align: justify;}
 .date { margin-right: 50px;}
+.puce::before { content: "•"; color:#feca07; width: 2em; margin-right: 0.5em;}
+.puceRecent::before { content:url(/img/pucette.png); color: #feca07; width: 2em; margin-right: 0.5em;}
 .rightPart h2 { max-width: 95%; border-bottom: 2px solid #feca07;}
 
 

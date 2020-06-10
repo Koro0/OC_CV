@@ -41,7 +41,7 @@ footer {margin-bottom: -10px;}
 .mytext { margin: 20px; text-align: justify;}
 .date { margin-right: 50px;}
 .puce::before { content: "•"; color:#feca07; width: 2em; margin-right: 0.5em;}
-.puceRecent::before { content:url(/img/pucette.png); color: #feca07; width: 2em; margin-right: 0.5em;}
+.puceRecent::before { content:url(../img/pucette.png); color: #feca07; width: 2em; margin-right: 0.5em;}
 .rightPart h2 { max-width: 95%; border-bottom: 2px solid #feca07;}
 
 

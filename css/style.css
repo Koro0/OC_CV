@@ -31,7 +31,7 @@ span.name1 { color: #feca07;}
 /**Footer Part**/
 footer {margin-bottom: -10px;}
 .recom {display: flex; flex-wrap: wrap; justify-content: space-between; margin-right: 20%;}
-.fun { font-size: 40px; border-radius: 150px; border-style: solid; border-color: #404040; color: #404040;}
+.fun { font-size: 40px; border-radius: 150px; border-style: solid; border-color: #404040; color: #404040; width: 45px; height: 45px; margin: 0 auto; padding: 10px;}
 /** Right Part**/
 .ul { display: flex; width: 90%;}
 .li {min-width: 200px;}
@@ -53,6 +53,9 @@ footer {margin-bottom: -10px;}
     }
     header {
         display: flex;
+    }
+    .iD {
+        width: 100%;
     }
     #name {
         min-width: 30%;
@@ -81,15 +84,15 @@ footer {margin-bottom: -10px;}
     div#idImg   {order: 1;}
     div#name  {order: 2;}
     div#about {order: 4;}
-    div#contentExp  {order: 3;}
+    div#contentExp  {order: 3; padding: 10px;}
     div#hobby   {order: 4;}
-    div#recomm  {order: 5;}
+    div#recomm  {order: 5; padding: 10px;}
 }
 @media only screen and (max-width: 600px) {
     body {
         width: 100%;
         flex-direction: column;
-        background-color: #e7e7e7;
+        
     }
     header {
         display: flex;
@@ -102,15 +105,10 @@ footer {margin-bottom: -10px;}
         min-width: 100%;
         
     }
-    .colorPrimary { color: #e7e7e7;}
-    .fun { color: #e7e7e7; border-color: #e7e7e7;}
-    .rightPart h2 { color: #0a4c5a;}
-    header .backPrimary {background-color: #e7e7e7;}
-    main i { border-radius: 150%; border-style: solid; border-color: #b9baba; border-width: 4px; background-color: #52525f;}
-    .icon { color:#e7e7e7;}
+    
     ul { margin: auto;}
     .date { margin-right: 10px;}
-    main .backPrimary {background-color: #0a4c5a;}
+    
     main .rightPart {
         
         width: 100%;
@@ -119,7 +117,7 @@ footer {margin-bottom: -10px;}
         
         width: 100%;
     }
-    footer .backPrimary {background-color: #0a4c5a;}
+    
     main .leftPart {
         width: 100%;
         display: flex;

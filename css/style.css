@@ -31,7 +31,7 @@ span.name1 { color: #feca07;}
 /**Footer Part**/
 footer {margin-bottom: -10px;}
 .recom {display: flex; flex-wrap: wrap; justify-content: space-between; margin-right: 20%;}
-.fun { font-size: 40px; border-radius: 150px; border-style: solid; border-color: #404040; color: #404040; width: 45px; height: 45px; margin: 0 auto; padding: 10px;}
+.fun { font-size: 30px; border-radius: 50px; border-style: solid; border-color: #404040; color: #404040; width: 50px; height: 40px; margin: 0 auto; padding: 10px;}
 /** Right Part**/
 .ul { display: flex; width: 90%;}
 .li {min-width: 200px;}
@@ -106,9 +106,10 @@ footer {margin-bottom: -10px;}
         
     }
     
-    ul { margin: auto;}
+    .ul { margin: auto;}
+    .li { min-width: 150px;}
     .date { margin-right: 10px;}
-    
+    main .leftPart h2 { height: 50px; padding-top: 10px; padding-bottom: 10px;}
     main .rightPart {
         
         width: 100%;

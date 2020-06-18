@@ -1,6 +1,6 @@
 /**base**/
 html { background-color: #ffffff; height: 100%;}
-body {width: 99%; margin: auto; justify-content: center; }
+body {width: 100%; margin: auto; justify-content: center; }
 
 /**reset*/
 h2 { margin-top: 0px;}
@@ -31,11 +31,10 @@ span.name1 { color: #feca07;}
 /**Footer Part**/
 footer {margin-bottom: -10px;}
 .recom {display: flex; flex-wrap: wrap; justify-content: space-between; margin-right: 20%;}
-.fun { font-size: 30px; border-radius: 50px; border-style: solid; border-color: #404040; color: #404040; width: 50px; height: 40px; margin: 0 auto; padding: 10px;}
+.fun { font-size: 30px; border-radius: 50px; border-style: solid; border-color: #404040; color: #404040; width: 40px; height: 40px; margin: 0 auto; padding: 10px;}
 /** Right Part**/
 .ul { display: flex; width: 90%;}
-.li {min-width: 200px;}
-.ul > div {display: block;}
+.li {min-width: 200px; display: block;}
 .titleUnderline { text-underline-position: under; text-decoration: underline; text-decoration-color: #feca07; margin-top: 15px;}
 .contactContent { margin: 20px; text-align: justify;}
 .mytext { margin: 20px; text-align: justify;}
